@@ -1,0 +1,219 @@
+
+*{
+
+padding: 0px;
+  margin: 0px;
+}
+
+
+.formulario{
+
+
+background-image: url(../images/ciberseg.png);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.box-form{
+
+background: rgba(135, 17, 17, 0.80);
+margin: 20px;
+
+}
+
+.btnEnviar{
+
+margin: 20px;
+
+
+}
+
+/*cartas*/
+
+.cartas{
+
+background: rgba(135, 17, 17, 0.80);
+
+
+}
+
+
+.card{
+
+margin: 20px;
+
+
+}
+
+.center-block{
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.card-img-top{
+
+margin-top: 20px;
+
+
+}
+
+
+.card-title{
+
+text-align: center;
+
+}
+
+.card-deck{
+
+border-bottom-style: solid;
+padding-bottom: 50px;
+border-bottom-width: 0px;
+
+
+}
+
+
+.imagen{
+
+margin: 30px;
+
+}
+
+/*footer*/
+
+
+#myFooter {
+	background-color: #343a40;
+	color:white;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+
+.grupo{
+
+margin-bottom:50px;
+
+}
+
+.grupo h2 {
+text-align: center;
+color: #0B243B;
+
+}
+
+
+
+.grupo b{
+
+color: #0B243B;
+
+}
+
+
+.footer{
+
+background-color: #383737;
+padding-top: 3px;
+padding-bottom: 3px;
+text-align: center;
+color: white;
+
+}
+
+
+
+.col-md-4{
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+
+}
+
+.contacto{
+
+padding: 30px;
+text-align: center;
+}
+
+.texto{
+
+margin-top: 80px!important;
+
+}

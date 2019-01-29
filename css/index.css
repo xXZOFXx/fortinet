@@ -6,15 +6,47 @@ padding: 0px;
 }
 
 
+
+
+.textos{
+
+padding: 40px;
+padding-left: 50px;
+text-align: left;
+
+
+}
+
+.parrafos{
+text-shadow: 5px 5px 5px #aaa;
+font-size: 20px;
+}
+
+body{
+
+font-family: 'Fjalla One', sans-serif !important;
+
+}
+
 .formulario{
 
 
-background-image: url(../images/ciberseg.png);
+background-image: url(../images/ciber.jpeg);
 background-repeat: no-repeat;
 -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+background-position: -200px -10px;
+background-color: black;
+
+
+
+}
+
+.formulario p{
+
+  margin-bottom:0px !important;
+  color: #ffff;
+  margin-bottom: 20px;
+  text-align: right;
 }
 
 .box-form{
@@ -83,8 +115,11 @@ border-bottom-width: 0px;
 .imagen{
 
 margin: 30px;
+color: white;
 
 }
+
+
 
 /*footer*/
 
@@ -215,5 +250,34 @@ text-align: center;
 .texto{
 
 margin-top: 80px!important;
+
+}
+
+.modal-content{
+
+color: white;
+
+}
+
+.modal-header{
+
+background-color: #9f4141;
+
+}
+
+.modal-footer{
+
+background-color: #9f4141;
+
+}
+
+.textos h4{
+
+text-align: right;
+
+}
+.gratis{
+
+width: 75%;
 
 }

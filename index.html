@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
         <link rel="icon" href="images/icono.png" width="10" height"10">
+        <script src="js/jquery.js" charset="utf-8"></script>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/index.css">
@@ -24,7 +26,39 @@
 
 
                   <div class="imagen" align="center">
+                    <div class="inic">
+                      <div class="col inicio">
+                        <h1 style="font-size:60px;"><span>Reduzca sus riesgos cibernéticos,<br>identifique sus vulnerabilidades.</span></h1>
+                      </div>
+                      <div class="gratis">
+                        <h2 style="background-color:rgba(0, 0, 0, 0.65)"><bold style="color:red; font-size:50px; font-weight:50px; ">GRATIS</bold> obtenga una evaluación de ciberamenazas.</h2>
+                      </div>
 
+
+                        <div class="row">
+
+                      <div class="col-md-6 textos">
+
+                      </div>
+                      <div class="col-md-6 textos">
+                          <h4>Soluciones FORTINET</h4>
+                          <div class="parrafos">
+                            <p>•	Advanced Threat Protection & Intelligence</p>
+                            <p>•	Secure and segment the Network</p>
+                            <p>•	Protect Web Applications</p>
+                            <p>•	Protect Networks with IoT Deployments</p>
+                            <p>•	Secure Enterprice Branch SD-WAN</p>
+                            <p>•	Secure the Cloud</p>
+                            <p>•	Improve Regulatory Compliance</p>
+                            <p>•	Endpoint Protection</p>
+                            <p>•	Secure Unified Access</p>
+                            <p>•	Small Business Protection</p>
+                          </div>
+
+                      </div>
+
+                    </div>
+                    </div>
                   </div>
 
 
@@ -33,7 +67,7 @@
 
 
 
-                <div class="col-sm-4">
+                <div class="col-sm-4" style="padding-top: 49px;">
 
                   <div class="">
                     <div class="box-form">
@@ -387,24 +421,79 @@
                             <img class="card-img-top" src="images/internet.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"><b>FortiGate</b></h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text">El Fortigate utiliza procesadores de seguridad de uso especifico y servicios de inteligencia contra amenazas avanzadas de los laboratorios FortiGuard, para dar la más alta protección con el más alto desempeño incluyendo el trafico encriptado. (liga que me lleve al reporte de Gartner 2018).</p>
 
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted"></small>
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalLong">
+                              Saber más...
+                              </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">Magic Quadrant para firewalls de red empresarial</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="container-fluid">
+                                        <div class="row">
+                                          <img src="images/fort-1.png"  alt="">
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
                                 </div>
                           </div>
+
+
 
                           <div class="card">
                             <img class="card-img-top" src="images/internet.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title"><b>FortiAP</b></h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h5 class="card-title"><b>FortiMail</b></h5>
+                              <p class="card-text">El FortiMail previene que las amenazas comunes y avanzadas lleguen al usuario final vía email, e integra capacidades robustas de protección de datos para evitar robo o perdida de la información. (liga que me lleve al reporte de SE Labs) </p>
 
                             </div>
 
                             <div class="card-footer">
-                                <small class="text-muted"></small>
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mod2">
+                              Saber más
+                              </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="mod2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">Email security services protection</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <object data="images/forti-mail.pdf" type="application/pdf" width="100%" height="850">
+                                      </object>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
                                 </div>
                           </div>
 
@@ -412,11 +501,35 @@
                             <img class="card-img-top" src="images/internet.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"><b>FortiSandbox</b></h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text">Con FortiSandbox fortalece su estrategia y arquitectura actual de seguridad, validando y analizando las ciberamenazas en un ambiente controlado por separado. FortiSandbox le ofrece una robusta combinación de detección de amenazas, mitigación automática, visibilidad y un despliegue flexible para detener ataques dirigidos y así prevenir la perdida de información</p>
                             </div>
 
                             <div class="card-footer">
-                                <small class="text-muted"></small>
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mod3">
+                              Saber más
+                              </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="mod3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">FortiSandbox</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <object data="images/forti-sandbox.pdf" type="application/pdf" width="100%" height="850">
+                                      </object>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
                                 </div>
                       </div>
               </div>
@@ -433,25 +546,77 @@
                           <div class="card">
                             <img class="card-img-top" src="images/internet.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title"><b>FortiADC</b></h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h5 class="card-title"><b>FortiWeb</b></h5>
+                              <p class="card-text">FortiWeb provee características avanzadas para proteger sus aplicaciones WEB contra amenazas conocidas como las desconocidas (DÍA CERO). </p>
 
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted"></small>
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mod4">
+                              Saber más
+                              </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="mod4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">FortiWeb</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="container-fluid">
+                                        <div class="row">
+                                          <img src="images/forti-web.png"  alt="">
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
                                 </div>
                           </div>
 
                           <div class="card">
                             <img class="card-img-top" src="images/internet.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title"><b>FortiSwitch</b></h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h5 class="card-title"><b>Fortinet Private & Public Cloud Security</b></h5>
 
+                              <p class="card-text">Con las soluciones de nube de Fortinet usted puede proteger su Data Center por completo, así como asegurar y proteger sus aplicaciones y cargas de trabajo en las diferentes nubes publicas para asegurar la privacidad y confidencialidad de su información. </p>
                             </div>
 
                             <div class="card-footer">
-                                <small class="text-muted"></small>
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mod5">
+                              Saber más
+                              </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="mod5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">Fortinet Private & Public Cloud Security</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <object data="images/fortinet-private.pdf" type="application/pdf" width="100%" height="850">
+                                      </object>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
                                 </div>
                           </div>
 
@@ -459,11 +624,11 @@
                             <img class="card-img-top" src="images/internet.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"> <b>FortiClient</b> </h5>
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text">FortiClient es mucho mas que cualquier protección avanzada de endpoint. Como agente integrado, FortiClient contiene tres elementos integrados: Agente Fabric para la conectividad con toda la plataforma Fabric de Fortinet, el modulo de seguridad de endpoint y el modulo de acceso seguro remoto.</p>
                             </div>
 
                             <div class="card-footer">
-                                <small class="text-muted"></small>
+                              <br>
                                 </div>
                       </div>
               </div>

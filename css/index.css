@@ -17,8 +17,15 @@ text-align: left;
 
 }
 
+h2{
+
+text-align: center;
+color: white;
+
+}
+
 .parrafos{
-text-shadow: 5px 5px 5px #aaa;
+text-shadow: 5px 5px 5px black;
 font-size: 20px;
 }
 
@@ -112,6 +119,8 @@ border-bottom-width: 0px;
 }
 
 
+
+
 .imagen{
 
 margin: 30px;
@@ -119,7 +128,12 @@ color: white;
 
 }
 
+.modal-lg{
 
+max-width: 1800px;
+
+
+}
 
 /*footer*/
 
@@ -278,6 +292,32 @@ text-align: right;
 }
 .gratis{
 
-width: 75%;
+width: 89%;
+color: white;
+
+
+}
+
+.inicio h1{
+
+text-shadow: 5px 5px 5px black;
+font-size: 85px;
+text-align: center;
+
+}
+
+@media (max-width: 1620px) {
+
+  .inicio h1{
+
+    font-size: 55px;
+
+  }
+
+  .gratis h2{
+
+    font-size: 26px;
+
+  }
 
 }

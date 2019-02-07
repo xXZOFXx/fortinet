@@ -70,21 +70,22 @@
                       <div class="col gratis" align="center">
                         <h2 style="margin-top: -46px;margin-bottom: 2.5rem; "><bold style="color:red; font-size:55px; font-weight:50px; ">GRATIS</bold> obtenga una evaluación de ciberamenazas.</h2>
                       </div>
-                      <form class="container" id="form-validation" method="post" action="enviar2.php" novalidate>
+
+                      <form class="container" id="form-validation" method="post" action="ingresar_datos_cliente.php" novalidate>
                         <div class="row">
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></span></label>
-                            <input type="text" class="form-control" id="validation1" placeholder="*Nombre" required="required">
+                            <input type="text" class="form-control" id="validation1" name="nombre" placeholder="*Nombre" required="required">
                           </div>
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                            <input type="text" class="form-control" id="validation2" placeholder="*Apellidos"  required="required">
+                            <input type="text" class="form-control" id="validation2" name="apellidos" placeholder="*Apellidos"  required="required">
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><!--<span class="text-danger">*</span>Empresa/Negocio--></label>
-                            <input type="text" class="form-control" id="validation3" placeholder="*Empresa" required="required">
+                            <input type="text" class="form-control" id="validation3" name="empresa" placeholder="*Empresa" required="required">
                         </div>
                             <!--<div class="invalid-feedback">
 
@@ -93,7 +94,7 @@
                             <!--div class="row"-->
                               <div class="col-md-6 mb-3" style="margin-top: -21px;">
                                 <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                                <input type="text" class="form-control" id="validation3" placeholder="Teléfono" required>
+                                <input type="text" class="form-control" id="validation3" name="telefono" placeholder="Teléfono" required>
                                 <!--<div class="invalid-feedback">
 
                                 </div>-->
@@ -104,14 +105,14 @@
 
                             <div class="col-md-6 mb-3"style="margin-top: -21px;">
                               <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                              <input type="mail" class="form-control" id="validation3" placeholder="*Correo" required="required">
+                              <input type="mail" class="form-control" id="validation3" name="correo" placeholder="*Correo" required="required">
                               <div class="invalid-feedback">
 
                               </div>
                             </div>
                             <div class="col-md-6" style="margin-top: -21px;">
                               <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                              <select class="custom-select custom-select mb-2">
+                              <select class="custom-select custom-select mb-2" name="pais">
                             <option >País</option>
                             <option value="AFG">Afghanistan</option>
                           <option value="ALA">Åland Islands</option>
@@ -381,7 +382,7 @@
                                   <label for="colFormLabelSm" class="col-sm-7 col-form-label col-form-label-sm"></label>
 
                                   <div class="col-xs-7">
-                                      <textarea class="form-control"  placeholder="¿En que podemos ayudarte?" required  rows="6"></textarea>
+                                      <textarea class="form-control" name="comentarios" placeholder="¿En que podemos ayudarte?" required  rows="6"></textarea>
 
                                   </div>
 
@@ -426,7 +427,7 @@
                             </div>
                             <div class="card-footer">
                               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalLong">
-                              Saber más
+                              Saber más...
                               </button>
 
                                 <!-- Modal -->
@@ -627,7 +628,7 @@
                               <p class="card-text">FortiClient es mucho mas que cualquier protección avanzada de endpoint. Como agente integrado, FortiClient contiene tres elementos integrados: Agente Fabric para la conectividad con toda la plataforma Fabric de Fortinet, el modulo de seguridad de endpoint y el modulo de acceso seguro remoto.</p>
                             </div>
 
-                            <div class="card-footer" style="padding-top: 27px;">
+                            <div class="card-footer">
                               <br>
                                 </div>
                       </div>

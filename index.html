@@ -6,7 +6,6 @@
         <script src="js/jquery.js" charset="utf-8"></script>
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Fortinet</title>
@@ -38,16 +37,16 @@
                       <div class="col textos">
                           <h4>Soluciones FORTINET</h4>
                           <div class="parrafos">
-                            <p>•	Advanced Threat Protection & Intelligence</p>
-                            <p>•	Secure and segment the Network</p>
-                            <p>•	Protect Web Applications</p>
-                            <p>•	Protect Networks with IoT Deployments</p>
-                            <p>•	Secure Enterprice Branch SD-WAN</p>
-                            <p>•	Secure the Cloud</p>
-                            <p>•	Improve Regulatory Compliance</p>
-                            <p>•	Endpoint Protection</p>
-                            <p>•	Secure Unified Access</p>
-                            <p>•	Small Business Protection</p>
+                            <p>•  Advanced Threat Protection & Intelligence</p>
+                            <p>•  Secure and segment the Network</p>
+                            <p>•  Protect Web Applications</p>
+                            <p>•  Protect Networks with IoT Deployments</p>
+                            <p>•  Secure Enterprice Branch SD-WAN</p>
+                            <p>•  Secure the Cloud</p>
+                            <p>•  Improve Regulatory Compliance</p>
+                            <p>•  Endpoint Protection</p>
+                            <p>•  Secure Unified Access</p>
+                            <p>•  Small Business Protection</p>
                           </div>
 
                       </div>
@@ -71,21 +70,21 @@
                         <h2 style="margin-top: -46px;margin-bottom: 2.5rem; "><bold style="color:red; font-size:55px; font-weight:50px; ">GRATIS</bold> obtenga una evaluación de ciberamenazas.</h2>
                       </div>
 
-                      <form class="container" id="form-validation" method="post" action="ingresar_datos_cliente.php" novalidate>
+                      <form class="container" id="form-validation" method="post">
                         <div class="row">
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></span></label>
-                            <input type="text" class="form-control" id="validation1" name="nombre" placeholder="*Nombre" required="required">
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="*Nombre" required>
                           </div>
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                            <input type="text" class="form-control" id="validation2" name="apellidos" placeholder="*Apellidos"  required="required">
+                            <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="*Apellidos"  required>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-6 mb-3" style="margin-top: -21px;">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><!--<span class="text-danger">*</span>Empresa/Negocio--></label>
-                            <input type="text" class="form-control" id="validation3" name="empresa" placeholder="*Empresa" required="required">
+                            <input type="text" class="form-control" id="empresa" name="empresa" placeholder="*Empresa" required>
                         </div>
                             <!--<div class="invalid-feedback">
 
@@ -94,7 +93,7 @@
                             <!--div class="row"-->
                               <div class="col-md-6 mb-3" style="margin-top: -21px;">
                                 <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                                <input type="text" class="form-control" id="validation3" name="telefono" placeholder="Teléfono" required>
+                                <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" required>
                                 <!--<div class="invalid-feedback">
 
                                 </div>-->
@@ -105,14 +104,14 @@
 
                             <div class="col-md-6 mb-3"style="margin-top: -21px;">
                               <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                              <input type="mail" class="form-control" id="validation3" name="correo" placeholder="*Correo" required="required">
+                              <input type="mail" class="form-control" id="correo" name="correo" placeholder="*Correo" required>
                               <div class="invalid-feedback">
 
                               </div>
                             </div>
                             <div class="col-md-6" style="margin-top: -21px;">
                               <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
-                              <select class="custom-select custom-select mb-2" name="pais">
+                              <select class="custom-select custom-select mb-2" id="pais" name="pais">
                             <option >País</option>
                             <option value="AFG">Afghanistan</option>
                           <option value="ALA">Åland Islands</option>
@@ -382,7 +381,7 @@
                                   <label for="colFormLabelSm" class="col-sm-7 col-form-label col-form-label-sm"></label>
 
                                   <div class="col-xs-7">
-                                      <textarea class="form-control" name="comentarios" placeholder="¿En que podemos ayudarte?" required  rows="6"></textarea>
+                                      <textarea class="form-control" id="comentarios" name="comentarios" placeholder="¿En que podemos ayudarte?" required  rows="6"></textarea>
 
                                   </div>
 
@@ -394,15 +393,16 @@
                             </div>
 
 
-
-
-
-
                           </div>
+
+              <div class="row">
+              <input type="hidden" id="oculto" name="oculto">
+              </div>
+
                           <div class="row">
 
                               <div class="col-md-4 btnEnviar" style="margin-top: -11px;">
-                                  <button type="submit" class="btn btn-dark">Enviar</button>
+                                  <button type="submit" onclick="enviarBtn();" class="btn btn-dark">Enviar</button>
                               </div>
                           </div>
 
@@ -422,7 +422,7 @@
                             <img class="card-img-top" src="images/FORTIGATE.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"><b>FortiGate</b></h5>
-                              <p class="card-text">El Fortigate utiliza procesadores de seguridad de uso especifico y servicios de inteligencia contra amenazas avanzadas de los laboratorios FortiGuard, para dar la más alta protección con el más alto desempeño incluyendo el trafico encriptado. (liga que me lleve al reporte de Gartner 2018).</p>
+                              <p class="card-text">El Fortigate utiliza procesadores de seguridad de uso especifico y servicios de inteligencia contra amenazas avanzadas de los laboratorios FortiGuard, para dar la más alta protección con el más alto desempeño incluyendo el trafico encriptado. </p>
 
                             </div>
                             <div class="card-footer">
@@ -465,7 +465,7 @@
                             <img class="card-img-top" src="images/FORTIMAIL.svg" width="90" height="90" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"><b>FortiMail</b></h5>
-                              <p class="card-text">El FortiMail previene que las amenazas comunes y avanzadas lleguen al usuario final vía email, e integra capacidades robustas de protección de datos para evitar robo o perdida de la información. (liga que me lleve al reporte de SE Labs) </p>
+                              <p class="card-text">El FortiMail previene que las amenazas comunes y avanzadas lleguen al usuario final vía email, e integra capacidades robustas de protección de datos para evitar robo o perdida de la información. </p>
 
                             </div>
 
@@ -656,7 +656,7 @@
 
                           <div class="col-md-6">
 
-                        <div class="row align-items-center">
+                        <div class="row align-items-center" style="margin-left: auto !important; margin-right: auto !important;">
                           <div class="col-12 contacto" >
                             <div class="texto">
                               <h5>Contacto</h5>
@@ -674,16 +674,40 @@
                           </div>
 
                         </div>
-
-
-
-
-
               </footer>
 
-
-
-
-<script src="js/bootstrap.js" charset="utf-8"></script>
   </body>
+
+
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+  <script>
+    function enviarBtn(){
+        var nombre=document.getElementById('nombre').value;
+        var apellidos=document.getElementById('apellidos').value;
+        var empresa=document.getElementById('empresa').value;
+        var telefono=document.getElementById('telefono').value;
+        var correo=document.getElementById('correo').value;
+        var pais=document.getElementById('pais').value;
+        var comentarios=document.getElementById('comentarios').value;
+        var oculto=document.getElementById('oculto').value;
+        $.ajax({
+            url: 'ingresarDatos.php',
+            type: 'POST',
+            data: {
+                nombre: nombre,
+                apellidos: apellidos,
+                empresa: empresa,
+                telefono: telefono,
+                correo: correo,
+                pais: pais,
+                comentarios: comentarios,
+                oculto: oculto
+            },
+            async:false,
+            success: function(msg) {
+              alert('Registro enviado.');
+            }
+        });
+    }
+  </script>
 </html>
